@@ -26,14 +26,25 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+  `.forEach` method iterates array without creating a new array (just like `for in loop`)
+  `.map` method iterates array change the value from each index and create new array.
 
 2. Explain the difference between a callback and a higher order function.
+  `callback function` is a function that is passed into another function as an argument.
+  `higher order function` is a function that receives a callback function.
 
 3. What is closure?
+  `closure` is a function that is nested inside of function and that nested function get returned by a parent function with a lexical scope (still reaching to parents' parameter and variables)
 
 4. Describe the four rules of the 'this' keyword.
+  `window binding`, `this` refer to the `window object` by default if `this` is outside of a object.
+  `Implicit binding` let `this` refer to the object when `this` is inside of a object.
+  `Explicit binding` let `this` refer to the other object using `call, apply, bind` method.
+  `New binding`, let `this` refer to the instance of the obejct that is created by function constructor.
 
 5. Why do we need super() in an extended class?
+  because `super()` let child class constructor refers to parent class constructor.
+  `extends` let parent class share to child class only methods without constructor.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -41,12 +52,12 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [1] Create a forked copy of this project
+- [1] Add your team lead as collaborator on Github
+- [1] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [1] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [1] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [1] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
 
@@ -84,8 +95,8 @@ There are a few stretch problems found throughout the files, don't work on them 
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your team lead as a reviewer on the pull-request
-- [ ] Your team lead will count the project as complete after receiving your pull-request
+- [1] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [1] Add your team lead as a reviewer on the pull-request
+- [1] Your team lead will count the project as complete after receiving your pull-request
 
 
