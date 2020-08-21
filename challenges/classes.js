@@ -43,3 +43,4 @@ class CubeMaker extends CuboidMaker {
 
 const cube = new CubeMaker({length: 4})
 console.log(cube.volume());
+console.log(cube.surfaceArea());
